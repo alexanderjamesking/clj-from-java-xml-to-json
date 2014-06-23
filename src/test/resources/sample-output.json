@@ -1,0 +1,128 @@
+{
+    "title": "UEFA Champions League 2008–09",
+    "start-date-time": "start",
+    "end-date-time": "end",
+    "knockouts": [
+        {
+            "name": "First knockout stage",
+            "rounds": [
+                {
+                    "name": "First knockout stage, Match Day 1",
+                    "events": [
+                        {
+                            "date-time": "20090224T194500+0000",
+                            "home-team": "Atletico Madrid",
+                            "away-team": "FC Porto"
+                        },
+                        {
+                            "date-time": "20090224T194500+0000",
+                            "home-team": "Olympique Lyonnais",
+                            "away-team": "Barcelona"
+                        },
+                        {
+                            "date-time": "20090224T194500+0000",
+                            "home-team": "Arsenal",
+                            "away-team": "Roma"
+                        },
+                        {
+                            "date-time": "20090224T194500+0000",
+                            "home-team": "Inter Milan",
+                            "away-team": "Manchester United"
+                        },
+                        {
+                            "date-time": "20090225T194500+0000",
+                            "home-team": "Chelsea",
+                            "away-team": "Juventus"
+                        },
+                        {
+                            "date-time": "20090225T194500+0000",
+                            "home-team": "Sp Lisbon",
+                            "away-team": "Bayern Munich"
+                        },
+                        {
+                            "date-time": "20090225T194500+0000",
+                            "home-team": "Villarreal",
+                            "away-team": "Panathinaikos"
+                        },
+                        {
+                            "date-time": "20090225T194500+0000",
+                            "home-team": "Real Madrid",
+                            "away-team": "Liverpool"
+                        }
+                    ]
+                },
+                {
+                    "name": "First knockout stage, Match Day 2",
+                    "events": [
+                        {
+                            "date-time": "20090310T194500+0000",
+                            "home-team": "Juventus",
+                            "away-team": "Chelsea"
+                        },
+                        {
+                            "date-time": "20090310T194500+0000",
+                            "home-team": "Bayern Munich",
+                            "away-team": "Sp Lisbon"
+                        },
+                        {
+                            "date-time": "20090310T194500+0000",
+                            "home-team": "Panathinaikos",
+                            "away-team": "Villarreal"
+                        },
+                        {
+                            "date-time": "20090310T194500+0000",
+                            "home-team": "Liverpool",
+                            "away-team": "Real Madrid"
+                        },
+                        {
+                            "date-time": "20090311T194500+0000",
+                            "home-team": "FC Porto",
+                            "away-team": "Atletico Madrid"
+                        },
+                        {
+                            "date-time": "20090311T194500+0000",
+                            "home-team": "Barcelona",
+                            "away-team": "Olympique Lyonnais"
+                        },
+                        {
+                            "date-time": "20090311T194500+0000",
+                            "home-team": "Roma",
+                            "away-team": "Arsenal"
+                        },
+                        {
+                            "date-time": "20090311T194500+0000",
+                            "home-team": "Manchester United",
+                            "away-team": "Inter Milan"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Quarter-finals",
+            "rounds": [
+                {
+                    "name": "Quarter-finals, Match Day 1",
+                    "events": []
+                },
+                {
+                    "name": "Quarter-finals, Match Day 2",
+                    "events": []
+                }
+            ]
+        },
+        {
+            "name": "Semi-finals",
+            "rounds": [
+                {
+                    "name": "Semi-finals, Match Day 1",
+                    "events": []
+                },
+                {
+                    "name": "Semi-finals, Match Day 2",
+                    "events": []
+                }
+            ]
+        }
+    ]
+}

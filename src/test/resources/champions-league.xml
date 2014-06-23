@@ -1,0 +1,388 @@
+<?xml version="1.0"?>
+<!-- sample taken from SportsML: http://dev.iptc.org/files/SportsML-Examples/sportsml-tournament-uefacl.xml -->
+<sports-content xmlns="http://iptc.org/std/SportsML/2008-04-01/">
+    <sports-metadata date-time="2009-01-30T11:13:38-05:00" doc-id="xt.sched-1212840976-20090130"
+                     language="en-US" fixture-key="tournament-schedule" document-class="schedules"
+                     fixture-name="Tournament Schedule">
+        <sports-title>Schedule: UEFA Champions League 2008–09</sports-title>
+        <sports-content-codes>
+            <sports-content-code code-type="sport" code-key="15054000" code-name="Soccer"/>
+            <sports-content-code code-type="league" code-key="l.uefa.org.champions"
+                                 code-name="UEFA Champions League 2008–09"/>
+        </sports-content-codes>
+    </sports-metadata>
+    <tournament>
+        <tournament-metadata date-coverage-type="tournament" tournament-key="l.uefa.org.champions-2008"
+                             tournament-name="UEFA Champions League 2008–09"
+                             date-coverage-value="l.uefa.org.champions-2008" start-date-time="20080916T000000-0000"
+                             end-date-time="20090527T235959-0000"/>
+        <tournament-division>
+            <tournament-division-metadata division-number="1" start-date-time="20080607T000000-0000"
+                                          end-date-time="20080629T235959-0000" minimum-stage-number="3" maximum-stage-number="3"/>
+            <tournament-stage>
+                <tournament-stage-metadata stage-key="knockout" stage-number="2" stage-name="Knockout Stage"
+                                           minimum-round-number="4" maximum-round-number="4" stage-type="home-and-home"
+                                           start-date-time="20090224T000000-0000" end-date-time="20090527T235959-0000"/>
+                <tournament-stage>
+                    <tournament-stage-metadata stage-key="first-knockout-stage" stage-number="1"
+                                               stage-type="home-and-home" stage-name="First knockout stage" minimum-round-number="2"
+                                               maximum-round-number="2" start-date-time="20090224T000000-0000"
+                                               end-date-time="20090311T235959-0000"/>
+                    <tournament-round>
+                        <tournament-round-metadata round-key="first-knockout-stage-1"
+                                                   round-name="First knockout stage, Match Day 1" round-number="1"
+                                                   start-date-time="20090224T000000-0000" end-date-time="20090224T235959-0000"/>
+                        <sports-event>
+                            <event-metadata date-coverage-type="event" series-index="1" event-number="1"
+                                            event-key="l.uefa.org.champions-2008-e.3079009" event-status="pre-event"
+                                            date-coverage-value="l.uefa.org.champions-2008-e.3079009"
+                                            start-date-time="20090224T194500+0000"/>
+                            <team>
+                                <team-metadata team-key="o.rfef.es-t.331" alignment="home">
+                                    <name first="Atletico Madrid"/>
+                                </team-metadata>
+                                <team-stats score="0" score-opposing="0"/>
+                            </team>
+                            <team>
+                                <team-metadata team-key="o.lpfp.pt-t.46339" alignment="away">
+                                    <name first="FC Porto"/>
+                                </team-metadata>
+                                <team-stats score="0" score-opposing="0"/>
+                            </team>
+                        </sports-event>
+                        <sports-event>
+                            <event-metadata date-coverage-type="event" series-index="2" event-number="1"
+                                            event-key="l.uefa.org.champions-2008-e.3079010" event-status="pre-event"
+                                            date-coverage-value="l.uefa.org.champions-2008-e.3079010"
+                                            start-date-time="20090224T194500+0000"/>
+                            <team>
+                                <team-metadata team-key="o.fff.fr-t.292" alignment="home">
+                                    <name first="Olympique Lyonnais"/>
+                                </team-metadata>
+                                <team-stats score="0" score-opposing="0"/>
+                            </team>
+                            <team>
+                                <team-metadata team-key="o.rfef.es-t.295" alignment="away">
+                                    <name first="Barcelona"/>
+                                </team-metadata>
+                                <team-stats score="0" score-opposing="0"/>
+                            </team>
+                        </sports-event>
+                        <sports-event>
+                            <event-metadata date-coverage-type="event" series-index="3" event-number="1"
+                                            event-key="l.uefa.org.champions-2008-e.3079012" event-status="pre-event"
+                                            date-coverage-value="l.uefa.org.champions-2008-e.3079012"
+                                            start-date-time="20090224T194500+0000"/>
+                            <team>
+                                <team-metadata team-key="o.thefa.com-t.1" alignment="home">
+                                    <name first="Arsenal" last="Gunners"/>
+                                </team-metadata>
+                                <team-stats score="0" score-opposing="0"/>
+                            </team>
+                            <team>
+                                <team-metadata team-key="o.figc.it-t.385" alignment="away">
+                                    <name first="Roma"/>
+                                </team-metadata>
+                                <team-stats score="0" score-opposing="0"/>
+                            </team>
+                        </sports-event>
+                        <sports-event>
+                            <event-metadata date-coverage-type="event" series-index="4" event-number="1"
+                                            event-key="l.uefa.org.champions-2008-e.3079013" event-status="pre-event"
+                                            date-coverage-value="l.uefa.org.champions-2008-e.3079013"
+                                            start-date-time="20090224T194500+0000"/>
+                            <team>
+                                <team-metadata team-key="o.figc.it-t.381" alignment="home">
+                                    <name first="Inter Milan"/>
+                                </team-metadata>
+                                <team-stats score="0" score-opposing="0"/>
+                            </team>
+                            <team>
+                                <team-metadata team-key="o.thefa.com-t.13" alignment="away">
+                                    <name first="Manchester United" last="Red Devils"/>
+                                </team-metadata>
+                                <team-stats score="0" score-opposing="0"/>
+                            </team>
+                        </sports-event>
+                        <sports-event>
+                            <event-metadata date-coverage-type="event" series-index="5" event-number="1"
+                                            event-key="l.uefa.org.champions-2008-e.3079006" event-status="pre-event"
+                                            date-coverage-value="l.uefa.org.champions-2008-e.3079006"
+                                            start-date-time="20090225T194500+0000"/>
+                            <team>
+                                <team-metadata team-key="o.thefa.com-t.5" alignment="home">
+                                    <name first="Chelsea" last="Blues"/>
+                                </team-metadata>
+                                <team-stats score="0" score-opposing="0"/>
+                            </team>
+                            <team>
+                                <team-metadata team-key="o.figc.it-t.199" alignment="away">
+                                    <name first="Juventus"/>
+                                </team-metadata>
+                                <team-stats score="0" score-opposing="0"/>
+                            </team>
+                        </sports-event>
+                        <sports-event>
+                            <event-metadata date-coverage-type="event" series-index="6" event-number="1"
+                                            event-key="l.uefa.org.champions-2008-e.3079008" event-status="pre-event"
+                                            date-coverage-value="l.uefa.org.champions-2008-e.3079008"
+                                            start-date-time="20090225T194500+0000"/>
+                            <team>
+                                <team-metadata team-key="o.lpfp.pt-t.415" alignment="home">
+                                    <name first="Sp Lisbon"/>
+                                </team-metadata>
+                                <team-stats score="0" score-opposing="0"/>
+                            </team>
+                            <team>
+                                <team-metadata team-key="o.dfb.de-t.198" alignment="away">
+                                    <name first="Bayern Munich"/>
+                                </team-metadata>
+                                <team-stats score="0" score-opposing="0"/>
+                            </team>
+                        </sports-event>
+                        <sports-event>
+                            <event-metadata date-coverage-type="event" series-index="7" event-number="1"
+                                            event-key="l.uefa.org.champions-2008-e.3079007" event-status="pre-event"
+                                            date-coverage-value="l.uefa.org.champions-2008-e.3079007"
+                                            start-date-time="20090225T194500+0000"/>
+                            <team>
+                                <team-metadata team-key="o.rfef.es-t.1173" alignment="home">
+                                    <name first="Villarreal"/>
+                                </team-metadata>
+                                <team-stats score="0" score-opposing="0"/>
+                            </team>
+                            <team>
+                                <team-metadata team-key="o.epo.gr-t.536" alignment="away">
+                                    <name first="Panathinaikos"/>
+                                </team-metadata>
+                                <team-stats score="0" score-opposing="0"/>
+                            </team>
+                        </sports-event>
+                        <sports-event>
+                            <event-metadata date-coverage-type="event" series-index="8" event-number="1"
+                                            event-key="l.uefa.org.champions-2008-e.3079011" event-status="pre-event"
+                                            date-coverage-value="l.uefa.org.champions-2008-e.3079011"
+                                            start-date-time="20090225T194500+0000"/>
+                            <team>
+                                <team-metadata team-key="o.rfef.es-t.398" alignment="home">
+                                    <name first="Real Madrid"/>
+                                </team-metadata>
+                                <team-stats score="0" score-opposing="0"/>
+                            </team>
+                            <team>
+                                <team-metadata team-key="o.thefa.com-t.11" alignment="away">
+                                    <name first="Liverpool" last="Reds"/>
+                                </team-metadata>
+                                <team-stats score="0" score-opposing="0"/>
+                            </team>
+                        </sports-event>
+                    </tournament-round>
+                    <tournament-round>
+                        <tournament-round-metadata round-key="first-knockout-stage-2"
+                                                   round-name="First knockout stage, Match Day 2" round-number="2"
+                                                   start-date-time="20090311T000000-0000" end-date-time="20090311T235959-0000"/>
+                        <sports-event>
+                            <event-metadata date-coverage-type="event" series-index="5" event-number="2"
+                                            event-key="l.uefa.org.champions-2008-e.3079006" event-status="pre-event"
+                                            date-coverage-value="l.uefa.org.champions-2008-e.3079006"
+                                            start-date-time="20090310T194500+0000"/>
+                            <team>
+                                <team-metadata team-key="o.figc.it-t.199" alignment="home">
+                                    <name first="Juventus"/>
+                                </team-metadata>
+                                <team-stats score="0" score-opposing="0"/>
+                            </team>
+                            <team>
+                                <team-metadata team-key="o.thefa.com-t.5" alignment="away">
+                                    <name first="Chelsea" last="Blues"/>
+                                </team-metadata>
+                                <team-stats score="0" score-opposing="0"/>
+                            </team>
+                        </sports-event>
+                        <sports-event>
+                            <event-metadata date-coverage-type="event" series-index="6" event-number="2"
+                                            event-key="l.uefa.org.champions-2008-e.3079008" event-status="pre-event"
+                                            date-coverage-value="l.uefa.org.champions-2008-e.3079008"
+                                            start-date-time="20090310T194500+0000"/>
+                            <team>
+                                <team-metadata team-key="o.dfb.de-t.198" alignment="home">
+                                    <name first="Bayern Munich"/>
+                                </team-metadata>
+                                <team-stats score="0" score-opposing="0"/>
+                            </team>
+                            <team>
+                                <team-metadata team-key="o.lpfp.pt-t.415" alignment="away">
+                                    <name first="Sp Lisbon"/>
+                                </team-metadata>
+                                <team-stats score="0" score-opposing="0"/>
+                            </team>
+                        </sports-event>
+                        <sports-event>
+                            <event-metadata date-coverage-type="event" series-index="7" event-number="2"
+                                            event-key="l.uefa.org.champions-2008-e.3079007" event-status="pre-event"
+                                            date-coverage-value="l.uefa.org.champions-2008-e.3079007"
+                                            start-date-time="20090310T194500+0000"/>
+                            <team>
+                                <team-metadata team-key="o.epo.gr-t.536" alignment="home">
+                                    <name first="Panathinaikos"/>
+                                </team-metadata>
+                                <team-stats score="0" score-opposing="0"/>
+                            </team>
+                            <team>
+                                <team-metadata team-key="o.rfef.es-t.1173" alignment="away">
+                                    <name first="Villarreal"/>
+                                </team-metadata>
+                                <team-stats score="0" score-opposing="0"/>
+                            </team>
+                        </sports-event>
+                        <sports-event>
+                            <event-metadata date-coverage-type="event" series-index="8" event-number="2"
+                                            event-key="l.uefa.org.champions-2008-e.3079011" event-status="pre-event"
+                                            date-coverage-value="l.uefa.org.champions-2008-e.3079011"
+                                            start-date-time="20090310T194500+0000"/>
+                            <team>
+                                <team-metadata team-key="o.thefa.com-t.11" alignment="home">
+                                    <name first="Liverpool" last="Reds"/>
+                                </team-metadata>
+                                <team-stats score="0" score-opposing="0"/>
+                            </team>
+                            <team>
+                                <team-metadata team-key="o.rfef.es-t.398" alignment="away">
+                                    <name first="Real Madrid"/>
+                                </team-metadata>
+                                <team-stats score="0" score-opposing="0"/>
+                            </team>
+                        </sports-event>
+                        <sports-event>
+                            <event-metadata date-coverage-type="event" series-index="1" event-number="2"
+                                            event-key="l.uefa.org.champions-2008-e.3079009" event-status="pre-event"
+                                            date-coverage-value="l.uefa.org.champions-2008-e.3079009"
+                                            start-date-time="20090311T194500+0000"/>
+                            <team>
+                                <team-metadata team-key="o.lpfp.pt-t.46339" alignment="home">
+                                    <name first="FC Porto"/>
+                                </team-metadata>
+                                <team-stats score="0" score-opposing="0"/>
+                            </team>
+                            <team>
+                                <team-metadata team-key="o.rfef.es-t.331" alignment="away">
+                                    <name first="Atletico Madrid"/>
+                                </team-metadata>
+                                <team-stats score="0" score-opposing="0"/>
+                            </team>
+                        </sports-event>
+                        <sports-event>
+                            <event-metadata date-coverage-type="event" series-index="2" event-number="2"
+                                            event-key="l.uefa.org.champions-2008-e.3079010" event-status="pre-event"
+                                            date-coverage-value="l.uefa.org.champions-2008-e.3079010"
+                                            start-date-time="20090311T194500+0000"/>
+                            <team>
+                                <team-metadata team-key="o.rfef.es-t.295" alignment="home">
+                                    <name first="Barcelona"/>
+                                </team-metadata>
+                                <team-stats score="0" score-opposing="0"/>
+                            </team>
+                            <team>
+                                <team-metadata team-key="o.fff.fr-t.292" alignment="away">
+                                    <name first="Olympique Lyonnais"/>
+                                </team-metadata>
+                                <team-stats score="0" score-opposing="0"/>
+                            </team>
+                        </sports-event>
+                        <sports-event>
+                            <event-metadata date-coverage-type="event" series-index="3" event-number="2"
+                                            event-key="l.uefa.org.champions-2008-e.3079012" event-status="pre-event"
+                                            date-coverage-value="l.uefa.org.champions-2008-e.3079012"
+                                            start-date-time="20090311T194500+0000"/>
+                            <team>
+                                <team-metadata team-key="o.figc.it-t.385" alignment="home">
+                                    <name first="Roma"/>
+                                </team-metadata>
+                                <team-stats score="0" score-opposing="0"/>
+                            </team>
+                            <team>
+                                <team-metadata team-key="o.thefa.com-t.1" alignment="away">
+                                    <name first="Arsenal" last="Gunners"/>
+                                </team-metadata>
+                                <team-stats score="0" score-opposing="0"/>
+                            </team>
+                        </sports-event>
+                        <sports-event>
+                            <event-metadata date-coverage-type="event" series-index="4" event-number="2"
+                                            event-key="l.uefa.org.champions-2008-e.3079013" event-status="pre-event"
+                                            date-coverage-value="l.uefa.org.champions-2008-e.3079013"
+                                            start-date-time="20090311T194500+0000"/>
+                            <team>
+                                <team-metadata team-key="o.thefa.com-t.13" alignment="home">
+                                    <name first="Manchester United" last="Red Devils"/>
+                                </team-metadata>
+                                <team-stats score="0" score-opposing="0"/>
+                            </team>
+                            <team>
+                                <team-metadata team-key="o.figc.it-t.381" alignment="away">
+                                    <name first="Inter Milan"/>
+                                </team-metadata>
+                                <team-stats score="0" score-opposing="0"/>
+                            </team>
+                        </sports-event>
+                    </tournament-round>
+                </tournament-stage>
+                <tournament-stage>
+                    <tournament-stage-metadata stage-key="quarter-final" stage-number="2"
+                                               stage-name="Quarter-finals" minimum-round-number="2" maximum-round-number="2"
+                                               start-date-time="20090407T000000-0000" end-date-time="20090415T235959-0000"/>
+                    <tournament-round>
+                        <tournament-round-metadata round-key="quarter-final-1"
+                                                   round-name="Quarter-finals, Match Day 1" round-number="1"
+                                                   start-date-time="20090407T000000-0000" end-date-time="20090407T235959-0000"/>
+                    </tournament-round>
+                    <tournament-round>
+                        <tournament-round-metadata round-key="quarter-final-2"
+                                                   round-name="Quarter-finals, Match Day 2" round-number="2"
+                                                   start-date-time="20090415T000000-0000" end-date-time="20090415T235959-0000"/>
+                    </tournament-round>
+                </tournament-stage>
+                <tournament-stage>
+                    <tournament-stage-metadata stage-key="semi-final" stage-number="3"
+                                               stage-name="Semi-finals" minimum-event-number="2" maximum-event-number="2"
+                                               start-date-time="20090428T000000-0000" end-date-time="20090506T235959-0000"/>
+                    <tournament-round>
+                        <tournament-round-metadata round-key="semi-final-1"
+                                                   round-name="Semi-finals, Match Day 1" round-number="1"
+                                                   start-date-time="20090428T000000-0000" end-date-time="20090428T235959-0000"/>
+                    </tournament-round>
+                    <tournament-round>
+                        <tournament-round-metadata round-key="semi-final-2"
+                                                   round-name="Semi-finals, Match Day 2" round-number="2"
+                                                   start-date-time="20090506T000000-0000" end-date-time="20090506T235959-0000"/>
+                    </tournament-round>
+                </tournament-stage>
+            </tournament-stage>
+            <tournament-stage>
+                <tournament-stage-metadata stage-key="final" stage-number="3" stage-name="Final"
+                                           minimum-round-number="1" maximum-round-number="1" stage-type="single-elimination"
+                                           start-date-time="20090224T000000-0000" end-date-time="20090527T235959-0000"/>
+                <sports-event>
+                    <event-metadata date-coverage-type="event" event-number="1"
+                                    event-key="l.uefa.org.champions-2008-e.3079013" event-status="pre-event"
+                                    date-coverage-value="l.uefa.org.champions-2008-e.3079033"
+                                    start-date-time="20090527T194500+0000">
+                        <site>
+                            <site-metadata>
+                                <name full="Stadio Olimpico"/>
+                                <home-location city="Rome" country="Italy"/>
+                            </site-metadata>
+                            <site-stats/>
+                        </site>
+                    </event-metadata>
+                    <team>
+                        <team-metadata team-key="TBD" alignment="home"/>
+                    </team>
+                    <team>
+                        <team-metadata team-key="TBD" alignment="away"/>
+                    </team>
+                </sports-event>
+            </tournament-stage>
+        </tournament-division>
+    </tournament>
+</sports-content>
