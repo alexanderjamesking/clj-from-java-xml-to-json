@@ -14,17 +14,17 @@
     :away-team (team-name event "away")
   })
 
-(defn- tournament-round [tournament-round]
+(defn- tournament-round [round]
   {
-    :name (xml1-> tournament-round :tournament-round-metadata (attr :round-name))
-    :events (for [e (xml-> tournament-round :sports-event)]
+    :name (xml1-> round :tournament-round-metadata (attr :round-name))
+    :events (for [e (xml-> round :sports-event)]
               (sports-event e))
   })
 
-(defn- stage [tournament-stage]
+(defn- tournament-stage [stage]
   {
-    :name (xml1-> tournament-stage :tournament-stage-metadata (attr :stage-name))
-    :rounds (for [r (xml-> tournament-stage :tournament-round)]
+    :name (xml1-> stage :tournament-stage-metadata (attr :stage-name))
+    :rounds (for [r (xml-> stage :tournament-round)]
               (tournament-round r))
   })
 
@@ -36,8 +36,8 @@
         :title (xml1-> m (attr :tournament-name))
         :start-date-time (xml1-> m (attr :start-date-time))
         :end-date-time (xml1-> m (attr :end-date-time))
-        :knockouts (for [t-stage (xml-> d :tournament-stage :tournament-stage)]
-                     (stage t-stage))
+        :knockouts (for [s (xml-> d :tournament-stage :tournament-stage)]
+                     (tournament-stage s))
       }))
 
 (defn- map-to-json [m]

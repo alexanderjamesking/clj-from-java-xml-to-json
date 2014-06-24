@@ -31,6 +31,8 @@ public class TransformTest {
         assertEquals("20080916T000000-0000", jsonNode.get("start-date-time").asText());
         assertEquals("20090527T235959-0000", jsonNode.get("end-date-time").asText());
 
+        System.out.println(json);
+
         final ArrayNode knockouts = (ArrayNode) jsonNode.get("knockouts");
         assertEquals(3, knockouts.size());
         assertEquals("First knockout stage", knockouts.get(0).get("name").asText());
